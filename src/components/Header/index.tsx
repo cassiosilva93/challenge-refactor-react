@@ -5,7 +5,7 @@ import { Container } from './styles';
 import Logo from '../../assets/logo.svg';
 
 interface HeaderProps {
-  openModal: () => boolean;
+  openModal: () => void;
 }
 
 const Header = ({openModal}: HeaderProps): JSX.Element => {
